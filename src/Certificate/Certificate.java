@@ -1,5 +1,7 @@
 package Certificate;
 
+import java.util.Date;
+
 public class Certificate {
     private String certificateId;
 
@@ -29,16 +31,16 @@ public class Certificate {
         this.certificateRank = certificateRank;
     }
 
-    public String getCertificateDate() {
+    public Date getCertificateDate() {
         return certificateDate;
     }
 
-    public void setCertificateDate(String certificateDate) {
+    public void setCertificateDate(Date certificateDate) {
         this.certificateDate = certificateDate;
     }
 
     private String certificateRank;
 
-    private String certificateDate;
+    private Date certificateDate;
     
 }
